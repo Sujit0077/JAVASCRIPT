@@ -26,9 +26,19 @@
 
 // ---------------------slice method-------------------------------
 
+
+let name="sujit";
+console.log(typeof name.slice(0));//slice method returns string in case of string
+
 let firstName="Sujit";
 // console.log(FirstName.slice(0,4));
 // console.log(firstName.slice(1));
+
+
+
+
+
+
 
 console.log('Berry' < 'Copper' )// true
 // because 'B' comes before 'C'
