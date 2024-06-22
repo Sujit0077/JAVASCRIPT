@@ -30,3 +30,16 @@ let firstName="Sujit";
 // console.log(FirstName.slice(0,4));
 // console.log(firstName.slice(1));
 
+console.log('Berry' < 'Copper' )// true
+// because 'B' comes before 'C'
+
+console.log('Berry' < 'Bingo'); // true
+// because the first characters are the same and 'e' comes before 'i'
+
+console.log('berry' < 'Copper'); // false
+// because the comparison is case-sensitive and capital letters come first
+
+
+
+console.log("Helloworld")
+console.log(2+2)
