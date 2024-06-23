@@ -110,3 +110,6 @@ console.log(Array.isArray(Object.keys(person)));
 for(let key of Object.keys(person)){
     console.log(key,":",person[key]);
 }
+// for(let key in Object.keys(person)){
+//     console.log(person[key]);
+// }
