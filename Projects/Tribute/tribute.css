@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(41, 17, 41);
+    /* width: 100%; */
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid rgb(180, 165, 165);
+    padding: 20px;
+}
+
+.img_container {
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 14px 14px 14px rgba(190, 163, 163, 0.217);
+}
+.content h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(216, 84, 84);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgb(255, 252, 252);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.img_container,
+img {
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(216, 84, 84);
+
+}
+
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: flex-end;
+}
+
+.top_section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #adaed3;
+    text-transform: uppercase;
+
+}
+
+.top_section h3 {
+    text-align: end;
+    font-family: 30px;
+    color: beige;
+}
+
+section.para {
+    margin-top: 100px;
+}
+
+.para h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px 0;
+    color: beige;
+    border-bottom: 2px solid rgb(189, 179, 179);
+
+}
+
+.para p {
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: rgba(240, 255, 255, 0.505);
+}
+
+.biography {
+    margin-top: 30px;
+}
+
+.biography h2 {
+    font-size: 40px;
+    padding: 20px 0;
+    color: beige;
+    border-bottom: 1px solid rgb(160, 148, 148);
+}
+
+ul {
+    padding-left: 40px;
+    margin-top: 14px;
+    color: rgba(240, 255, 255, 0.505);
+}
+
+li {
+    font-size: 20px;
+    line-height: 28px;
+}
+.copy{
+    margin-top: 30px;
+    text-align: right;
+    font-size: 20px;
+}
+.copy p{
+    color: rgba(240, 255, 255, 0.505);
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 21, 255);
+    
+    
+}
+a:hover{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: rgb(21, 8, 255);
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    padding-top: 4px;
+    
+}
