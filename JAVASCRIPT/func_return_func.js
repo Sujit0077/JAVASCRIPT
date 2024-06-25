@@ -10,7 +10,7 @@ function hi(){
     }
     return hello;
 }
-
+// 
 let ans=hi();
 console.log(ans);
 ans()
