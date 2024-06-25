@@ -2,56 +2,73 @@
 
 //from function expression just remove function keyword and after paranthesis use => sign
 
+//------------------------------------------------------------------------------------------------
 
-
+//--------------------------------function expression-----------------------------
 let hhbbdd = function () {
     console.log("Happy Birthday");
 }
-
+//------------------------------arrow function------------------------------------
 let hbd = () => {
     console.log("Happy Birthday");
 }
 hbd()
+//------------------------------------------------------------------------------------------------
 
+//--------------------------------function expression-----------------------------
 
 let plus24 = function () {
     console.log(2 + 4);
 }
+//------------------------------arrow function------------------------------------
+
 let twoplusfour = () => {
     console.log(2 + 4);
 }
+//------------------------------------------------------------------------------------------------
 
+//--------------------------------function expression-----------------------------
 
 let num = function (num1, num2) {
     return num1 + num2;
 }
+//------------------------------arrow function------------------------------------
 
 let add2num = (num1, num2) => {
     return num1 + num2;
 }
 console.log(add2num(2, 7));
+//------------------------------------------------------------------------------------------------
 
+//--------------------------------function expression-----------------------------
 
 let oddd_even = function (num) {
     return num % 2 === 0;
 }
+//------------------------------arrow function------------------------------------
+
 let oe = (num) => {
     return num % 2 == 0;
 }
 console.log(oe(4));
+//------------------------------------------------------------------------------------------------
 
 
+//--------------------------------function expression-----------------------------
 
 let firstch = function (str) {
     return str[0];
 }
+//------------------------------arrow function------------------------------------
 
 let first_char = (str) => {
     return str[0];
 }
 console.log(first_char("Sujit"));
+//------------------------------------------------------------------------------------------------
 
 
+//--------------------------------function expression-----------------------------
 
 let search = function (arr, target) {
     for (let i = 0; i < arr.length; i++) {
@@ -62,6 +79,7 @@ let search = function (arr, target) {
     return false;
 }
 
+//------------------------------arrow function------------------------------------
 
 let target = (arr, tar) => {
     for (let i = 0; i < arr.length; i++) {
