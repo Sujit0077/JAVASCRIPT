@@ -90,3 +90,43 @@ let target = (arr, tar) => {
     return false;
 }
 console.log(target([1, 2, 3, 4, 5, 6], 5));
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////
+let sayhello = function () {
+    console.log("hello1");
+}
+sayhello();
+
+sayhello = () => {
+    console.log("hello");
+}
+
+sayhello()
+
+
+
+//if only one porameter is passed to function then no need to use paranthesis
+//but if there are zero or more than 1 parameter you have to use paranthesis
+//for ex
+
+
+let sayhello1=str=>{
+    return `hello ${str}`
+}
+console.log(sayhello1("sujit"))
+
+
+
+
+// if the function is also returing in one line then return keyword and paranthesis  can also be removed
+//above function can be re written as
+
+sayhello1=str=>`hello ${str}`;
+console.log(sayhello1("sujit"));
