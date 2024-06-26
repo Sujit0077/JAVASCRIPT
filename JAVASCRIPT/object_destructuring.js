@@ -39,7 +39,7 @@ const obj={
     year:2002,
     hobby:"Cricket"
 };
-// var a=[,,...obj];
+// var [...a]=obj;
 // console.log(a)//error not iterable
 // let {bandName:key1,songName:key2}=obj;
 // console.log(key1,key2);

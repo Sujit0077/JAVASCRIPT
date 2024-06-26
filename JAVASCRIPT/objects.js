@@ -94,10 +94,10 @@ let person={
 // 1
 
 for (let key in person){
-    // console.log(key);//only giving keys
+    console.log(key);//only giving keys
     // console.log(person.key)//3 times undefined bcoz the loop is searching for the key named key
     // console.log(key,person[`${key}`]);
-    // console.log(key,person[key])
+    console.log(key,person[key])
     // console.log(`${key} : ${person[key]}`)
 }
 

@@ -1,6 +1,4 @@
+let {bandName:key1,songName:key2,...key3}=obj;
 
-let hello3=()=>{
-    // Cannot access 'hello3' before initialization
-
-    console.log("hello3");
-}
+// console.log(key1,key2);
+// console.log(key3);
