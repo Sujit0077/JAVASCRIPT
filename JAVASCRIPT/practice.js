@@ -28,3 +28,60 @@ for(let key in obj){
 let str="sujit";
 let [...vaar1]=str
 console.log(vaar1);
+
+
+
+let obj1=new Object({1:"Sujit",2:"Gupta"});
+console.log(obj1[1]);
+
+// let myarr=[1,2]
+let myarr=["h","i"]
+// console.log(myarr.join(""))//hi
+// console.log(myarr.join(""));//12
+
+// const merged=Object.assign(obj1,obj)
+const merged=Object.assign({},obj1,obj)
+
+console.log(merged)
+
+// console.log(obj1)
+
+
+let m1=Object.create({"m":2,"n":3})
+
+console.log(m1)
+
+
+const mysym=Symbol("key1")
+const jsuser={
+    name:"sujit",
+    age:20,
+    gender:"male",
+    [mysym]:"hello"
+}
+// jsuser[mysym]="hello"
+jsuser.name="mohit"
+console.log(jsuser)
+
+//how to change object key name
+
+
+
+
+jsuser.aa=jsuser.name
+delete jsuser.name
+console.log(jsuser);
+
+function calculatecartprice(...num1){
+    let total=0;
+    for(let n of num1){
+        total+=n;
+    }
+    return total;
+}
+
+console.log(calculatecartprice(1,2,3,4,5,6,7,8,9,10))
+
+
+
+
