@@ -85,3 +85,7 @@ console.log(calculatecartprice(1,2,3,4,5,6,7,8,9,10))
 
 
 
+
+
+let arrpr=[1,2,3,5,6,7,8,9]
+
