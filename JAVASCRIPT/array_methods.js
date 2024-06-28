@@ -22,8 +22,8 @@ const users = [
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 function odeven(num, index) {
-    // return (num%2===0)?console.log("Even",index):console.log("odd",index);
-    console.log(num > 5, index);
+    return (num % 2 === 0) ? console.log("Even", index) : console.log("odd", index);
+    // console.log(num > 5, index);
 }
 numbers.forEach(odeven)
 // console.log(numbers)
@@ -50,10 +50,10 @@ console.log(fnobj);
 
 //it takes input as a callback function which returns a boolean value and if its true it will store that into an array
 
-let numnegpos=[-1,2,-3,4,-5,6,-7,8,-9]
+let numnegpos = [-1, 2, -3, 4, -5, 6, -7, 8, -9]
 
-let pos=numnegpos.filter((num)=>{
-    return num<0;
+let pos = numnegpos.filter((num) => {
+    return num < 0;
 })
 
 console.log(pos);
@@ -63,12 +63,75 @@ console.log(pos);
 
 //sort method
 
-let numsort=[1,2,3,4,5,6,7,8,9]
+let numsort = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-let sort=numsort.sort((a,b)=>{
-    return a-b;
+numsort.sort((a, b) => {
+    return a - b;
 })
 
-console.log(sort);
+console.log(numsort);
 
-// numsort.toSorted()
+//find method
+
+let arr = ["tiger", "cat", "dog", "mir"]
+
+let ans = arr.find(function (str) {
+    return str.length === 3;
+})
+console.log(ans);
+
+// let ans1=arr.map(function(str){
+//     return str.length===3;
+// })
+// console.log(ans1);
+
+// let ans3=arr.filter(function(str){
+//     return str.length===3;
+// })
+// console.log(ans3);
+// arr.forEach(function(str){
+//     console.log( str.length===3);
+// })
+// // console.log(ans4);
+
+
+//every method
+
+let number = [3, 1, 7, 4, 5]
+
+let ans1 = number.every((num) => num % 2 === 0);
+console.log(ans1);
+
+let ans2 = number.some((num) => num % 2 === 0)
+console.log(ans2);
+
+
+
+// let ans3=users.every((user)=>{
+//     return user.age>=30;
+// })
+// console.log(ans3);
+
+//reverse arr
+let revarr=[1,2,3,4,5,6,7,8,1];
+revarr.reverse();
+console.log(revarr)
+
+
+//splice method
+// start delete insert
+let splicearr=[1,2,3,4,5,6,7,8,9]
+
+//delete
+// let spliceans=splicearr.splice(2,1);//delete and return value at 2 index
+
+//insert
+// let spliceans=splicearr.splice(2,0,"insert")no delete only insert at 2nd index
+
+//insert and delete
+// let spliceans= splicearr.splice(2,2,3);//delete 2 value and insert one value at index 2
+console.log(spliceans);
+console.log(splicearr);
+
+
+
