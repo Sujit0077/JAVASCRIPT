@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: azure;">
+    <div class="parent">
+        <!-- bla bla -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector(".parent");
+    // console.log(parent);
+    //parent dega upar wala
+
+    // console.log(parent.children)
+    //htmlcollection--arraylike foreach not work but for loop works
+    //  HTMLCollection(4) [div.day, div.day, div.day, div.day]
+
+    // console.log(parent.children[0].innerHTML);//Monday
+
+    for(let i=0;i<parent.children.length;i++){
+        // console.log(parent.children[i])
+        // console.log(parent.children[i].innerHTML)
+
+    }
+
+
+// parent.children[1].style.color="gold";
+
+// console.log(parent.firstElementChild)
+//<div class="day">Monday</div>
+
+// console.log(parent.lastElementChild)
+//<div class="day">Thursday</div>
+
+// console.log(parent.children[0].nextElementSibling)
+//<div class="day" style="color: gold;">Tuesday</div>
+
+// console.log(parent.children[1].previousElementSibling)
+//<div class="day">Monday</div>
+
+const day =document.querySelector(".day")
+console.log(day)
+//<div class="day">Monday</div>
+// console.log(day.parentElement);
+// console.log(day.parentNode)//parent
+
+// console.log(day.nextElementSibling)//to access next sibling
+console.log(parent.childNodes)
+//NodeList(9) [text, div.day, text, div.day, text, div.day, text, div.day, text]------------without comment above
+//NodeList(11) [text, div.day, text, div.day, text, div.day, text, div.day, text]------------with comment above
+    
+
+
+    // for (const htm in parent.children) {
+    //     console.log(htm);//0,1,2,3,length,item,nameditem
+    // }
+    // for (const htm of parent.children) {
+    //     console.log(htm)//same as of for loop
+    // }
+</script>
+</html>
